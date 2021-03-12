@@ -49,7 +49,7 @@
         jQuery(document).ready(function($) {
             $('.counter').counterUp({
                 delay: 10,
-                time: 3000
+                time: 6000
             });
         });
     </script>
@@ -200,7 +200,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-4 col-md-8 col-sm-12 footer-widget">
-                            <h6 class="footer-widget__title mb-20 text-center">Connect With Us</h6>
+                            <h6 class="footer-widget__title mb-20 text-left">Connect With Us</h6>
                             <div class="fb-page" data-href="{{App\Models\Social::getSocial()->facebook_page}}" data-tabs="timeline" data-width="" data-height="180px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="{{App\Models\Social::getSocial()->facebook_page}}" class="fb-xfbml-parse-ignore"><a href="{{App\Models\Social::getSocial()->facebook_page}}">Facebook</a></blockquote></div>
                         </div>
                     </div>

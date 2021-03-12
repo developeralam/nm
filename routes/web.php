@@ -32,6 +32,8 @@ use App\Http\Controllers\SocialController;
 /* Home Page Route */
 Route::get('/', [FrontendController::class, 'index'])->name('index');
 
+//Message Route
+Route::post('/msgstore', [MessageController::class, 'store'])->name('message.store');
 /* Backend Routes */
 Route::group(['prefix' => '/admin', 'middleware' => ['auth']], function(){
     Route::get('/', [BackendController::class, 'index'])->name('dashboard');
@@ -55,5 +57,3 @@ Route::group(['prefix' => '/admin', 'middleware' => ['auth']], function(){
         
     });
     Auth::routes();
-    //Message Route
-    Route::post('/msgstore', [MessageController::class, 'store'])->name('message.store');

@@ -136,7 +136,7 @@
                 <div class="col-lg-12">
                     <div class="section-title-wrap text-center section-space--mb_40">
                         <h6 class="section-sub-title mb-20">Industries we Serve</h6>
-                        <h3 class="heading">Services We Deliver<br> we provide <span class="text-color-primary"> truly prominent IT solutions.</span></h3>
+                        <h3 class="heading">Services We Deliver</h3>
                     </div>
                 </div>
             </div>
@@ -750,8 +750,7 @@
                 <div class="col-lg-7 ml-auto">
                     <div class="contact-form-service-wrap">
                         <div class="contact-title text-center section-space--mb_40">
-                            <h3 class="mb-10">Need a hand?</h3>
-                            <p class="text">Reach out to the world’s most reliable IT services.</p>
+                            <h4 class="mb-10">Or Reach Us Right Here ...</h4>
                         </div>
 
                         <form action="{{route('message.store')}}" method="post">
